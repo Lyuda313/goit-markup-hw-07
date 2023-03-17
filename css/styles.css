@@ -2,12 +2,11 @@ body {
   font-family: "roboto", sans-serif;
 }
 
-
-.list{
-    list-style: none;
+.list {
+  list-style: none;
 }
-.link{
-    text-decoration: none;
+.link {
+  text-decoration: none;
 }
 
 .header {
@@ -26,6 +25,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.header-address {
+  font-style: normal;
 }
 .header-mail {
   font-weight: 400;
