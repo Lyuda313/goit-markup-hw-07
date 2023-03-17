@@ -1,5 +1,6 @@
 body {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
 }
 
 .list {
@@ -14,7 +15,7 @@ body {
 .header-navigation {
 }
 .header-logo {
-  font-family: "Raleway";
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -23,10 +24,13 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4D5AE5;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
-.header-logo-web {
-  font-family: "Raleway";
+.header-logo-studio {
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -35,7 +39,10 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #2E2F42;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 .header-list {
 }
@@ -114,7 +121,7 @@ body {
 /* Section 2 */
 .section2 {
 }
-.section2-h2 {
+.section_2-h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -153,7 +160,7 @@ body {
 /* Section 3 */
 .section3 {
 }
-.section3-h2 {
+.section_3-h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -173,7 +180,7 @@ body {
   order: 0;
   flex-grow: 0;
 }
-.section3-h3 {
+.section_3-h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -214,7 +221,7 @@ body {
   background: #2e2f42;
 }
 .footer-logo {
-  font-family: "Raleway";
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -223,12 +230,15 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4D5AE5;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 .link {
 }
-.footer-logo-web {
-  font-family: "Raleway";
+.footer-logo-studio {
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -237,7 +247,10 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #F4F4FD;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 .footer-text {
   font-weight: 400;
