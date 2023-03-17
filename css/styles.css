@@ -1,8 +1,8 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
+  background-color: #ffffff;
 }
-
 .list {
   list-style: none;
 }
@@ -15,7 +15,7 @@ body {
 .header-navigation {
 }
 .header-logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -24,13 +24,13 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4D5AE5;
+  color: #4d5ae5;
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 .header-logo-studio {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -39,7 +39,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2E2F42;
+  color: #2e2f42;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -221,7 +221,7 @@ body {
   background: #2e2f42;
 }
 .footer-logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -230,7 +230,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4D5AE5;
+  color: #4d5ae5;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -238,7 +238,7 @@ body {
 .link {
 }
 .footer-logo-studio {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -247,7 +247,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #F4F4FD;
+  color: #f4f4fd;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -326,7 +326,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .section1-portbtn {
   font-family: inherit;
@@ -338,5 +338,5 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #4D5AE5;
+  color: #4d5ae5;
 }
