@@ -314,8 +314,7 @@ list-style: none;
   text-align: center;
   letter-spacing: 0.04em;
   color: #FFFFFF;
-  cursor: pointer
-  color: var()
+  cursor: pointer;
 }
 
 .button-roll:hover {
