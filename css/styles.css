@@ -296,7 +296,7 @@ list-style: none;
 }
 
 .button-roll {
-  font-family: "Roboto", sans-serif
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -306,7 +306,7 @@ list-style: none;
   text-align: center;
   letter-spacing: 0.04em;
   color: #FFFFFF;
-  стиль cursor: pointer 
+  cursor: pointer
 }
 
 .button-roll:hover {
