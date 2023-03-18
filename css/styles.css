@@ -289,14 +289,59 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-/* Portfolio Section 2 */
-.section2-portfolio {
+/* Portfolio*/
+.button {
+list-style: none;
 }
-.list {
+.button-roll-all{
+  font-family: "Roboto", sans-serif
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;  
+  color: #FFFFFF;
+  cursor: pointer;
 }
-.section2-portfolio-item {
+
+.button-roll-all:hover {
+  background: #404BBF;
 }
-.section2-img-bank-app {
+.button-roll-all:focus {
+  background: #404BBF;
+
+
+.button-roll {
+  font-family: "Roboto", sans-serif
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4D5AE5;
+}
+
+.button-roll:hover {
+  background-color: #F4F4FD;
+}
+.button-roll:focus {
+  background-color: #F4F4FD;
+}
+.section-portfolio {
+
+}
+.roll {
+  list-style: none;
+}
+.section-portfolio-item {
+}
+.section-img-bank-app {
   left: 0px;
   top: 0px;
   background: url(4074365.jpg);
@@ -309,64 +354,40 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.section2-img-qr {
+.section-img-qr {
   background: url(4.png);
   mix-blend-mode: normal;
 }
-.section2-img-mac {
+.section-img-mac {
   background: url(tp238-pf-s73-05-mockup.jpg);
   mix-blend-mode: normal;
 }
-.section2-img-wheel {
+.section-img-wheel {
   background: url(female-taxi-driver-paying-attention-road.jpg);
 }
-.section2-img-screen {
+.section-img-screen {
   background: url(2105.w026.n002.440B.p0.440.jpg);
   mix-blend-mode: normal;
 }
-.section2-img-girl-courses {
+.section-img-girl-courses {
   background: url(charming-short-haired-lady-gray-hat-standing-beside-wall-with-smartphone.jpg);
   mix-blend-mode: normal;
 }
-.section2-img-stories {
+.section-img-stories {
   background: url(6418424.jpg);
 }
-.section2-img-food {
+.section-img-food {
   background: url(pexels-photo-7262897.jpg);
   mix-blend-mode: normal;
 }
-.section2-img-coffe {
+.section-img-coffe {
   background: url(pexels-chevanon-photography-302897.jpg);
   mix-blend-mode: normal;
 }
-.portfolio-title3 {
+.portfolio-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-}
-.section1-portbtn1 {
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-}
-.section1-portbtn {
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
 }
