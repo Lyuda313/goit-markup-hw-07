@@ -48,6 +48,16 @@ body {
 }
 .header-item {
 }
+.header-item:hover{
+  color: #404bbf
+}
+.header-item:focus{
+  color: #404bbf
+}
+
+
+
+
 .header-link {
   font-weight: 500;
   font-size: 16px;
