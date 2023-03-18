@@ -310,15 +310,15 @@ list-style: none;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #FFFFFF;
+  color: var(--background-color)
   cursor: pointer;
 }
 
 .button-roll:hover {
-  background: #404BBF;
+  background: var(--color)
 }
 .button-roll:focus {
-  background: #404BBF;
+  background: var(--color)
 }
 .section-portfolio {
 
