@@ -310,15 +310,15 @@ list-style: none;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: var(--background-color)
+  color: var(--color)
   cursor: pointer;
 }
 
 .button-roll:hover {
-  background: var(--color)
+  background: var(--background-color)
 }
 .button-roll:focus {
-  background: var(--color)
+  background: var(--background-color)
 }
 .section-portfolio {
 
@@ -382,5 +382,4 @@ list-style: none;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
-}
+  color: #2e2f42;}
