@@ -321,6 +321,10 @@ body {
   color: #ffffff;
   cursor: pointer;
 }
+.button-roll{
+  color: (var(--color));
+  background: (var(--background-color));
+}
 
 .button-roll:hover {
   background: #404bbf;
