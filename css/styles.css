@@ -312,7 +312,16 @@ list-style: none;
   letter-spacing: 0.04em;
   color: var(--color)
   cursor: pointer;
+  background-color: var(----background-color);
 }
+.button-roll:hover,
+.button-roll:focus {
+    color: #4D5AE5;
+    background-color: #F4F4FD;}
+
+
+
+
 
 .button-roll:hover {
   background: var(--background-color)
