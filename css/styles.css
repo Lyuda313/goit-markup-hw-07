@@ -48,10 +48,10 @@ body {
 }
 .header-item {
 }
-.header-item:hover{
+.header-link:hover{
   color: #404bbf
 }
-.header-item:focus{
+.header-link:focus{
   color: #404bbf
 }
 
