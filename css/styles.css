@@ -61,11 +61,11 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.header-link:hover {
-  color: #404bbf;
+.header-link:hover{
+  color: #404bbf
 }
-.header-link:focus {
-  color: #404bbf;
+.header-link:focus{
+  color: #404bbf
 }
 .header-address {
   font-style: normal;
@@ -77,12 +77,8 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.header-mail:hover {
-  color: #404bbf;
-}
-.header-mail:focus {
-  color: #404bbf;
-}
+.header-mail:hover{color: #404bbf}
+.header-mail:focus{color: #404bbf}
 .header-tel {
   font-weight: 400;
   font-size: 16px;
@@ -90,12 +86,8 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.header-tel:hover {
-  color: #404bbf;
-}
-.header-tel:focus {
-  color: #404bbf;
-}
+.header-tel:hover{color: #404bbf}
+.header-tel:focus{color: #404bbf}
 
 /* Section 1 */
 .sectiofirst-background {
@@ -305,7 +297,7 @@ body {
 /* Portfolio*/
 
 .button {
-  list-style: none;
+list-style: none;
 }
 
 .button-roll {
@@ -318,29 +310,29 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: #FFFFFF;
   cursor: pointer;
-}
-.button-roll{
-  color: (var(--color));
-  background: (var(--background-color));
 }
 
 .button-roll:hover {
-  background: #404bbf;
+  background: #404BBF;
 }
 .button-roll:focus {
-  background: #404bbf;
+  background: #404BBF;
 }
 .section-portfolio {
+
 }
 .button {
   list-style: none;
 }
 .section-portfolio-item {
 }
-.portfolio-photo {
+.portfolio-photo{
+
 }
+
+
 
 .section-img-bank-app {
   left: 0px;
@@ -392,4 +384,3 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-Х
