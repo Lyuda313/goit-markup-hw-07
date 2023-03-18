@@ -1,5 +1,6 @@
 :root{
-
+--main-color: #4d5ae5;
+--background-color: #f4f4fd;
 }
 
 
@@ -81,15 +82,16 @@ body {
 }
 .header-mail:hover{color: #404bbf}
 .header-mail:focus{color: #404bbf}
-.header-tel {
+.header-tel{
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
 .header-tel:hover{color: #404bbf}
 .header-tel:focus{color: #404bbf}
+
 
 /* Section 1 */
 .sectiofirst-background {
@@ -312,7 +314,7 @@ list-style: none;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #FFFFFF;
+  color: var(--main-color)
   cursor: pointer
 }
 
