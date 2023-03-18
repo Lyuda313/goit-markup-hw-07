@@ -313,10 +313,9 @@ list-style: none;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: var(--color)
-  background-color: var(--background-color);
+  color: #FFFFFF;
   cursor: pointer
-  
+  color: var()
 }
 
 .button-roll:hover {
