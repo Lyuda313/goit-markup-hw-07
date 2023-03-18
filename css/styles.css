@@ -1,390 +1,390 @@
 :root{
---main-color: #4d5ae5;
---background-color: #f4f4fd;
-}
-
-
-
-
-body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
-}
-.list {
+  --color: #4d5ae5
+  
+  }
+  
+  
+  
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+  }
+  .list {
+    list-style: none;
+  }
+  .link {
+    text-decoration: none;
+  }
+  
+  .header {
+  }
+  .header-navigation {
+  }
+  
+  .header-logo {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .header-logo-studio {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .header-list {
+  }
+  .header-item {
+  }
+  .header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+  .header-link:hover{
+    color: #404bbf
+  }
+  .header-link:focus{
+    color: #404bbf
+  }
+  .header-address {
+    font-style: normal;
+  }
+  .header-mail {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  .header-mail:hover{color: #404bbf}
+  .header-mail:focus{color: #404bbf}
+  .header-tel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  .header-tel:hover{color: #404bbf}
+  .header-tel:focus{color: #404bbf}
+  
+  /* Section 1 */
+  .sectiofirst-background {
+    background: #2e2f42;
+  }
+  
+  .sectionfirst {
+  }
+  .sectionfirst-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+  }
+  .sectionfirst-btn {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    width: 169px;
+    height: 56px;
+    left: 636px;
+    top: 428px;
+    background: #4d5ae5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .sectionfirst-btn:hover {
+    background-color: #404bbf;
+  }
+  .sectionfirst-btn:focus {
+    background-color: #404bbf;
+  }
+  
+  .sectionfirst-heading {
+  }
+  .sectionfirst-item {
+  }
+  .list {
+  }
+  .sectionfirst-headline {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+  .sectionfirst-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  /* Section 2 */
+  .sectionsecond {
+  }
+  .sectionsecond-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+  }
+  .sectionsecond-item {
+  }
+  .list {
+  }
+  .sectionsecond-img-computer {
+    background: url(2368.jpg);
+    border: 1px solid #e7e9fc;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .sectionsecond-img-phone {
+    background: url(2225.jpg);
+    border: 1px solid #e7e9fc;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .sectionsecond-img-phonetwo {
+    background: url(photo-1545235617-7a424c1a60cc.jpg);
+    border: 1px solid #e7e9fc;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  /* Section 3 */
+  .sectionthird {
+    background: #f4f4fd;
+  }
+  .sectionthird-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+  }
+  
+  .list {
+  }
+  .sectionthird-item {
+    background-color: #ffffff;
+  }
+  .sectionthird-img-boyone {
+    background: url(man-with-laptop-presenting-something.jpg);
+    mix-blend-mode: normal;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .sectionthird-headline {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+  .sectionthird-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  .sectionthird-img-boytwo {
+    background: url(img-2.jpg);
+    mix-blend-mode: normal;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .sectionthird-img-girl {
+    background: url(young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair.jpg);
+    mix-blend-mode: normal;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .sectionthird-img-boythird {
+    background: url(confident-handsome-guy-posing-against-white-wall.jpg);
+    mix-blend-mode: normal;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .footer-background {
+    background: #2e2f42;
+  }
+  .footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .link {
+  }
+  .footer-logo-studio {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+  }
+  /* Portfolio*/
+  
+  .button {
   list-style: none;
-}
-.link {
-  text-decoration: none;
-}
-
-.header {
-}
-.header-navigation {
-}
-
-.header-logo {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--main-color)
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-.header-logo-studio {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #2e2f42;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-.header-list {
-}
-.header-item {
-}
-.header-link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.header-link:hover{
-  color: #404bbf
-}
-.header-link:focus{
-  color: #404bbf
-}
-.header-address {
-  font-style: normal;
-}
-.header-mail {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.header-mail:hover{color: #404bbf}
-.header-mail:focus{color: #404bbf}
-.header-tel{
-  font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-}
-.header-tel:hover{color: #404bbf}
-.header-tel:focus{color: #404bbf}
-
-
-/* Section 1 */
-.sectiofirst-background {
-  background: #2e2f42;
-}
-
-.sectionfirst {
-}
-.sectionfirst-title {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #ffffff;
-}
-.sectionfirst-btn {
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  width: 169px;
-  height: 56px;
-  left: 636px;
-  top: 428px;
-  background: var(--main-color)
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  cursor: pointer;
-}
-.sectionfirst-btn:hover {
-  background-color: #404bbf;
-}
-.sectionfirst-btn:focus {
-  background-color: #404bbf;
-}
-
-.sectionfirst-heading {
-}
-.sectionfirst-item {
-}
-.list {
-}
-.sectionfirst-headline {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.sectionfirst-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-/* Section 2 */
-.sectionsecond {
-}
-.sectionsecond-heading {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-.sectionsecond-item {
-}
-.list {
-}
-.sectionsecond-img-computer {
-  background: url(2368.jpg);
-  border: 1px solid #e7e9fc;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-.sectionsecond-img-phone {
-  background: url(2225.jpg);
-  border: 1px solid #e7e9fc;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-.sectionsecond-img-phonetwo {
-  background: url(photo-1545235617-7a424c1a60cc.jpg);
-  border: 1px solid #e7e9fc;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-/* Section 3 */
-.sectionthird {
-  background: #f4f4fd;
-}
-.sectionthird-heading {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
-.list {
-}
-.sectionthird-item {
-  background-color: #ffffff;
-}
-.sectionthird-img-boyone {
-  background: url(man-with-laptop-presenting-something.jpg);
-  mix-blend-mode: normal;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-.sectionthird-headline {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.sectionthird-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.sectionthird-img-boytwo {
-  background: url(img-2.jpg);
-  mix-blend-mode: normal;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-.sectionthird-img-girl {
-  background: url(young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair.jpg);
-  mix-blend-mode: normal;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-.sectionthird-img-boythird {
-  background: url(confident-handsome-guy-posing-against-white-wall.jpg);
-  mix-blend-mode: normal;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-.footer-background {
-  background: #2e2f42;
-}
-.footer-logo {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-.link {
-}
-.footer-logo-studio {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #f4f4fd;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-.footer-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-}
-/* Portfolio*/
-
-.button {
-list-style: none;
-}
-
-.button-roll {
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: var(--main-color)
-  cursor: pointer;
-}
-
-.button-roll:hover {
-  background: #404BBF;
-}
-.button-roll:focus {
-  background: #404BBF;
-}
-.section-portfolio {
-
-}
-.button {
-  list-style: none;
-}
-.section-portfolio-item {
-}
-.portfolio-photo{
-
-}
-
-
-
-.section-img-bank-app {
-  left: 0px;
-  top: 0px;
-  background: url(4074365.jpg);
-  mix-blend-mode: normal;
-}
-.portfolio-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.section-img-qr {
-  background: url(4.png);
-  mix-blend-mode: normal;
-}
-.section-img-mac {
-  background: url(tp238-pf-s73-05-mockup.jpg);
-  mix-blend-mode: normal;
-}
-.section-img-wheel {
-  background: url(female-taxi-driver-paying-attention-road.jpg);
-}
-.section-img-screen {
-  background: url(2105.w026.n002.440B.p0.440.jpg);
-  mix-blend-mode: normal;
-}
-.section-img-girl-courses {
-  background: url(charming-short-haired-lady-gray-hat-standing-beside-wall-with-smartphone.jpg);
-  mix-blend-mode: normal;
-}
-.section-img-stories {
-  background: url(6418424.jpg);
-}
-.section-img-food {
-  background: url(pexels-photo-7262897.jpg);
-  mix-blend-mode: normal;
-}
-.section-img-coffe {
-  background: url(pexels-chevanon-photography-302897.jpg);
-  mix-blend-mode: normal;
-}
-.portfolio-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
+  }
+  
+  .button-roll {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer
+  }
+  
+  .button-roll:hover {
+    background: #404BBF;
+  }
+  .button-roll:focus {
+    background: #404BBF;
+  }
+  .section-portfolio {
+  
+  }
+  .button {
+    list-style: none;
+  }
+  .section-portfolio-item {
+  }
+  .portfolio-photo{
+  
+  }
+  
+  
+  
+  .section-img-bank-app {
+    left: 0px;
+    top: 0px;
+    background: url(4074365.jpg);
+    mix-blend-mode: normal;
+  }
+  .portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  .section-img-qr {
+    background: url(4.png);
+    mix-blend-mode: normal;
+  }
+  .section-img-mac {
+    background: url(tp238-pf-s73-05-mockup.jpg);
+    mix-blend-mode: normal;
+  }
+  .section-img-wheel {
+    background: url(female-taxi-driver-paying-attention-road.jpg);
+  }
+  .section-img-screen {
+    background: url(2105.w026.n002.440B.p0.440.jpg);
+    mix-blend-mode: normal;
+  }
+  .section-img-girl-courses {
+    background: url(charming-short-haired-lady-gray-hat-standing-beside-wall-with-smartphone.jpg);
+    mix-blend-mode: normal;
+  }
+  .section-img-stories {
+    background: url(6418424.jpg);
+  }
+  .section-img-food {
+    background: url(pexels-photo-7262897.jpg);
+    mix-blend-mode: normal;
+  }
+  .section-img-coffe {
+    background: url(pexels-chevanon-photography-302897.jpg);
+    mix-blend-mode: normal;
+  }
+  .portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+  
