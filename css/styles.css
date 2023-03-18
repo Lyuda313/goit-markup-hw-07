@@ -313,12 +313,16 @@ list-style: none;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: var(--color), var(--background-color)
-  cursor: pointer;
+  color: #FFFFFF;
+  cursor: pointer
 }
+
 .button-roll:hover {
-  background: var(--background-color)
+  background: #404BBF;
 }
+.button-roll:focus {
+  background: #404BBF;
+
 
 .section-portfolio {
 
