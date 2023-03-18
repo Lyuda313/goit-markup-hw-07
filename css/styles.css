@@ -290,28 +290,16 @@ body {
   color: #f4f4fd;
 }
 /* Portfolio*/
+
+.sectionone-h{
+  font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
 .button {
 list-style: none;
 }
-.button-roll-all{
-  font-family: "Roboto", sans-serif
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;  
-  color: #FFFFFF;
-  cursor: pointer;
-}
-
-.button-roll-all:hover {
-  background: #404BBF;
-}
-.button-roll-all:focus {
-  background: #404BBF;
 
 .button-roll {
   font-family: "Roboto", sans-serif
@@ -323,14 +311,15 @@ list-style: none;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #4D5AE5;
+  color: #FFFFFF;
+  стиль cursor: pointer 
 }
 
 .button-roll:hover {
-  background-color: #F4F4FD;
+  background: #404BBF;
 }
 .button-roll:focus {
-  background-color: #F4F4FD;
+  background: #404BBF;
 }
 .section-portfolio {
 
