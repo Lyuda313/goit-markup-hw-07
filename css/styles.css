@@ -313,17 +313,17 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
 color: var(--color);
-cursor: pointer;
 background-color: var(--background-color);
+cursor: pointer;
 }
 
 .button-roll:hover {
-  color: var (--button-color)
-  background: var(var(--button-background));
+  color: #FFFFFF;
+  background: #404BBF;
 }
 .button-roll:focus {
-  color: var (--button-color)
-  background: var(var(--button-background));
+  color: #FFFFFF;
+  background: #404BBF;
 }
 .section-portfolio {
 
