@@ -1,6 +1,8 @@
 :root {
   --color: ##4d5ae5;
   --background-color: #f4f4fd;
+  --button-color: ##FFFFFF;
+  --button-background: ##404BBF;
 }
 
 body {
@@ -301,27 +303,27 @@ list-style: none;
 }
 
 .button-roll {
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: var(--color)
-  cursor: pointer;
-  background-color: var(----background-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: var(--color);
+cursor: pointer;
+background-color: var(--background-color);
 }
 
 .button-roll:hover {
-  color: var(--background-color;
-  background: var(--color);
+  color: var (--button-color)
+  background: var(var(--button-background));
 }
 .button-roll:focus {
-  color: var(--background-color);
-  background: var(--color);
+  color: var (--button-color)
+  background: var(var(--button-background));
 }
 .section-portfolio {
 
