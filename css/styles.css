@@ -98,13 +98,20 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   width: 169px;
-height: 56px;
-left: 636px;
-top: 428px;
-background: #4D5AE5;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
+  height: 56px;
+  left: 636px;
+  top: 428px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
+.sectionfirst-btn:hover {
+  background-color: #404bbf;
+}
+.sectionfirst-btn:focus {
+  background-color: #404bbf;
+}
+
 .sectionfirst-heading {
 }
 .sectionfirst-item {
@@ -166,7 +173,7 @@ border-radius: 4px;
 
 /* Section 3 */
 .sectionthird {
-background: #F4F4FD;
+  background: #f4f4fd;
 }
 .sectionthird-heading {
   font-weight: 700;
@@ -175,13 +182,13 @@ background: #F4F4FD;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2E2F42;
+  color: #2e2f42;
 }
 
 .list {
 }
 .sectionthird-item {
-  background-color: #FFFFFF
+  background-color: #ffffff;
 }
 .sectionthird-img-boyone {
   background: url(man-with-laptop-presenting-something.jpg);
