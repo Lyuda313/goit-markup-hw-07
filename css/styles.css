@@ -313,7 +313,7 @@ list-style: none;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #FFFFFF;
+  color: var(--color)
   cursor: pointer;
 }
 
