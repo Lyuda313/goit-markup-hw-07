@@ -126,10 +126,10 @@ body {
   cursor: pointer;
 }
 .sectionfirst-btn:hover {
-  background-color: var(--iris);
+  background-color: var(--ocean);
 }
 .sectionfirst-btn:focus {
-  background-color: var(--iris);
+  background-color: var(--ocean);
 }
 .sectionfirst-heading {
 }
