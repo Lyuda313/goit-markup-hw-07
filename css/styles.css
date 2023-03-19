@@ -29,14 +29,9 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 .header-logo-studio {
   font-family: "Raleway", sans-serif;
@@ -49,9 +44,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--navy-blue);
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 .header-list {
 }
@@ -74,7 +66,6 @@ body {
   font-style: normal;
 }
 .header-mail {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -83,7 +74,6 @@ body {
 .header-mail:hover{color: var(--ocean)}
 .header-mail:focus{color: var(--ocean)}
 .header-tel {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -383,4 +373,3 @@ cursor: pointer;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
-1
