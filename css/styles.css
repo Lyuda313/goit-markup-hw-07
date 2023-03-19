@@ -39,8 +39,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--navy-blue);
@@ -251,14 +249,9 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 .link {
 }
@@ -268,14 +261,9 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--cloud);
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 .footer-text {
   font-weight: 400;
