@@ -63,22 +63,14 @@ body {
 .header-address {
   font-style: normal;
 }
-.header-mail {
+.header-contact {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
 }
-.header-mail:hover{color: var(--ocean)}
-.header-mail:focus{color: var(--ocean)}
-.header-tel {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--slate);
-}
-.header-tel:hover{color: var(--ocean)}
-.header-tel:focus{color: var(--ocean)}
+.header-contact:hover{color: var(--ocean)}
+.header-contact:focus{color: var(--ocean)}
 
 /* Section 1 */
 .sectiofirst-background {
