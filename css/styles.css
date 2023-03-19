@@ -65,10 +65,10 @@ body {
   color: var(--navy-blue);
 }
 .header-link:hover{
-  color: var(--ocean)
+  color: var(--ocean);
 }
 .header-link:focus{
-  color: var(--ocean)
+  color: var(--ocean);
 }
 .header-address {
   font-style: normal;
