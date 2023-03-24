@@ -124,7 +124,7 @@ body {
   padding-bottom: 188px;
 }
 .sectionfirst {
-
+  padding-top: 120px;
 }
 .sectionfirst-title {
   font-weight: 700;
@@ -177,7 +177,6 @@ body {
 
 /* Section 2 */
 .sectionsecond {
-  padding-bottom: 120px;
 }
 .sectionsecond-heading {
   font-weight: 700;
