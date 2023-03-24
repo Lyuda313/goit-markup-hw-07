@@ -401,3 +401,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
+.img{
+  display: block;
+}
