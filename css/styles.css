@@ -56,6 +56,7 @@ body {
   background-color: var(--white);
   padding-top: 24px;
   padding-bottom: 24px;
+  height: 72px;
 }
 .header-navigation {
   display: flex;
@@ -105,7 +106,6 @@ body {
 }
 .header-container-address{
   display: flex;
-  gap: 40px;
 }
 
 
@@ -114,6 +114,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+  margin-right: 40px;
 }
 .header-mail:hover {
   color: var(--ocean);
@@ -126,6 +127,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+  padding-right: 156px;
 }
 .header-tel:hover {
   color: var(--ocean);
@@ -151,6 +153,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--white);
   margin-bottom: 48px;
+  width: 496px;
+  height: 120px;
+  left: 472px;
+  top: 260px;
 }
 .sectionfirst-btn {
   font-family: inherit;
@@ -164,6 +170,10 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  width: 169px;
+  height: 56px;
+   margin: 0 auto;
+   display: block;
 }
 .sectionfirst-btn:hover {
   background-color: var(--ocean);
@@ -294,6 +304,8 @@ body {
 }
 .footer-background {
   background: var(--navy-blue);
+  height: 312px;
+  top: 1764px;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -304,6 +316,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+  padding-bottom: 17px;
 }
 .link {
 }
@@ -316,6 +329,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--cloud);
+  padding-bottom: 17px;
+
 }
 .footer-text {
   font-weight: 400;
@@ -323,6 +338,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cloud);
+  width: 264px;
+height: 72px;
+left: 156px;
+top: 2420px;
+padding-top: 17px;
 }
 
 /* Portfolio*/
@@ -347,7 +367,12 @@ body {
   letter-spacing: 0.04em;
   background-color: var(--cloud);
   cursor: pointer;
+  flex-direction: row;
+  justify-content: center;
+  padding: 12px 24px;
 }
+}
+
 .button-roll:hover {
   color: var(--white);
   background: var(--ocean);
@@ -414,5 +439,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
-}
+  color: var(--navy-blue);}
+  .img {
+    display: block;
+  }
