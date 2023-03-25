@@ -229,10 +229,14 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue);
+  padding-bottom: 72px;
 }
 .sectionsecond-item {
 }
-.list {
+.list {}
+.sectionsecond-img{
+  display: flex;
+  gap: 24px;
 }
 .sectionsecond-img-computer {
   background: url(2368.jpg);
@@ -268,6 +272,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue);
+  padding-bottom: 72px;
 }
 .list {
 }
@@ -448,7 +453,6 @@ body {
   color: var(--navy-blue);
 }
 .img{
-  display: block;
 }
 .footer-container{
  padding-top: 100px;
