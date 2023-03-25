@@ -261,6 +261,14 @@ body {
 }
 
 /* Section 3 */
+.sectionthird-container{
+  display: flex;
+  gap: 24px;
+}
+
+
+
+
 .sectionthird {
   background: var(--cloud);
 }
@@ -293,6 +301,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  padding-top: 32px;
 }
 .sectionthird-text {
   font-weight: 400;
@@ -301,6 +310,9 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--slate);
+  padding-bottom: 32px;
+  padding-top: 8px;
+
 }
 .sectionthird-img-boytwo {
   background: url(img-2.jpg);
@@ -387,6 +399,7 @@ body {
   cursor: pointer;
   height: 48px;
   padding: 12px 24px 12px 24px;
+  border: transparent;
 }
 .button-roll:hover {
   color: var(--white);
