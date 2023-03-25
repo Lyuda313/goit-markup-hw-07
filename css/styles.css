@@ -39,7 +39,6 @@ img{
   padding-right: 15px;
   padding-left: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
 }
 
 body {
@@ -433,7 +432,6 @@ margin-top: -48px;
   margin-top: 48px;
 }
 .section-portfolio-item * {
-  outline: 1px solid tomato;
 }
 
 
@@ -488,6 +486,11 @@ margin-top: -48px;
 .section-img-coffe {
   background: url(pexels-chevanon-photography-302897.jpg);
   mix-blend-mode: normal;
+}
+.card-content{
+  padding-top: 32px;
+  padding-left: 16px;
+  border: 1px solid var(--cornflower);
 }
 .portfolio-title {
   font-weight: 500;
