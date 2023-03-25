@@ -57,7 +57,14 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
 }
+.header-container{
+  display: flex;
+}
+
 .header-navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -68,11 +75,14 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+  margin-right: 76px;
 }
 .header-logo-studio {
   color: var(--navy-blue);
 }
 .header-list {
+  display: flex;
+  gap: 40px;
 }
 .header-item {
 }
