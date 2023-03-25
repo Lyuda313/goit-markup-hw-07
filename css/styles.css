@@ -165,7 +165,9 @@ body {
   border-radius: 4px;
   cursor: pointer;
   border-radius: 4px;
-  width: 169px;height: 56px;
+  min-width: 169px;
+  height: 56px;
+  border: transparent;
 }
 .sectionfirst-btn:hover {
   background-color: var(--ocean);
@@ -328,12 +330,14 @@ body {
 }
 
 /* Portfolio*/
-
+.section1-h1{
+}
 .button {
   list-style: none;
   padding-bottom: 72px;
   display: flex;
   gap: 24px;
+  padding-top: 96px;
 }
 .button-roll {
   font-family: "Roboto", sans-serif;
@@ -349,6 +353,7 @@ body {
   background-color: var(--cloud);
   cursor: pointer;
   height: 48px;
+  padding: 12px 24px 12px 24px;
 }
 .button-roll:hover {
   color: var(--white);
