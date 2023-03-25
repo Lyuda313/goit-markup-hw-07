@@ -345,6 +345,7 @@ body {
   display: flex;
   gap: 24px;
   padding-top: 96px;
+  align-items: center;
 }
 .button-roll {
   font-family: "Roboto", sans-serif;
