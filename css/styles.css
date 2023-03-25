@@ -6,6 +6,7 @@
   --navy-blue: #2e2f42;
   --slate: #434455;
   --cornflower: #e7e9fc;
+  --gap: 24px;
 }
 p,
 h1,
@@ -422,13 +423,13 @@ margin: 0;
 list-style: none;
 display: flex;
 flex-wrap: wrap;
-margin-left: -24px;
+margin-left: calc(-1 * var(--gap));
 margin-top: -48px;
 }
 
 .card-set > .section-portfolio-item{
-  flex-basis: calc(100% / 3 -24px);
-  margin-left: 24px;
+  flex-basis: calc(100% / 3 - var(--gap));
+  margin-left: var(--gap);
   margin-top: 48px;
 }
 
