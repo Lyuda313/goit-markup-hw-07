@@ -432,6 +432,9 @@ margin-top: -48px;
   margin-left: var(--gap);
   margin-top: 48px;
 }
+.section-portfolio-item * {
+  outline: 1px solid tomato;
+}
 
 
 
@@ -453,6 +456,8 @@ margin-top: -48px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+  margin-top: 8px;
+  height: 24px;
 }
 .section-img-qr {
   background: url(4.png);
@@ -490,8 +495,12 @@ margin-top: -48px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  height: 24px;
 }
 .img{
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 .footer-container{
  padding-top: 100px;
