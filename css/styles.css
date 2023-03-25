@@ -139,6 +139,9 @@ body {
   padding-top: 188px;
   padding-bottom: 188px;
 }
+.hero-container{
+  text-align: center;
+}
 .sectionfirst {
   padding-top: 120px;
 }
@@ -153,7 +156,8 @@ body {
   align-items: center;
   width: 496px;
   height: 120px;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .sectionfirst-btn {
   font-family: inherit;
@@ -305,6 +309,7 @@ body {
 }
 .footer-background {
   background: var(--navy-blue);
+  height: 312px;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -334,6 +339,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cloud);
+  margin-top: 17.5px;;
 }
 
 /* Portfolio*/
@@ -346,6 +352,7 @@ body {
   gap: 24px;
   padding-top: 96px;
   align-items: center;
+  justify-content: center;
 }
 .button-roll {
   font-family: "Roboto", sans-serif;
@@ -372,9 +379,6 @@ body {
   background: var(--ocean);
 }
 .section-portfolio {
-}
-.button {
-  list-style: none;
 }
 .section-portfolio-item {
 }
