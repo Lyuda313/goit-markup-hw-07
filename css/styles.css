@@ -340,6 +340,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--cloud);
   margin-top: 17.5px;;
+  width: 264px;
+  height: 72px;
 }
 
 /* Portfolio*/
@@ -436,4 +438,8 @@ body {
 }
 .img{
   display: block;
+}
+.footer-container{
+ padding-top: 100px;
+ padding-bottom: 100px;
 }
