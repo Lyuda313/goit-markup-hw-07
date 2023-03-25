@@ -150,6 +150,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--white);
   margin-bottom: 48px;
+  align-items: center;
 }
 .sectionfirst-btn {
   font-family: inherit;
@@ -163,6 +164,8 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  border-radius: 4px;
+  width: 169px;height: 56px;
 }
 .sectionfirst-btn:hover {
   background-color: var(--ocean);
@@ -329,6 +332,8 @@ body {
 .button {
   list-style: none;
   padding-bottom: 72px;
+  display: flex;
+  gap: 24px;
 }
 .button-roll {
   font-family: "Roboto", sans-serif;
@@ -343,6 +348,7 @@ body {
   letter-spacing: 0.04em;
   background-color: var(--cloud);
   cursor: pointer;
+  height: 48px;
 }
 .button-roll:hover {
   color: var(--white);
