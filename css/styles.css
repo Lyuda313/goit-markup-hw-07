@@ -134,6 +134,14 @@ body {
 }
 
 /* Section 1 */
+.section-1-container{
+  display: flex;
+  gap: 24px;
+}
+
+
+
+
 .sectiofirst-background {
   background: var(--navy-blue);
   padding-top: 188px;
@@ -198,6 +206,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  padding-bottom: 8px;
 }
 .sectionfirst-text {
   font-weight: 400;
@@ -205,6 +214,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+  width: 264px;
+  height: 72px;
 }
 
 /* Section 2 */
