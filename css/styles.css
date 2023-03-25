@@ -151,6 +151,9 @@ body {
   color: var(--white);
   margin-bottom: 48px;
   align-items: center;
+  width: 496px;
+  height: 120px;
+  text-align: center;
 }
 .sectionfirst-btn {
   font-family: inherit;
