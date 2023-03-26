@@ -40,7 +40,6 @@ img {
   padding-left: 15px;
   margin: 0 auto;
 }
-
 body {
   font-family: "Roboto", sans-serif;
   color: var(--slate);
@@ -52,6 +51,9 @@ body {
 .link {
   text-decoration: none;
 }
+
+
+
 .header {
   background-color: var(--white);
   padding-top: 24px;
@@ -61,7 +63,6 @@ body {
 .header-container {
   display: flex;
 }
-
 .header-navigation {
   display: flex;
   align-items: center;
@@ -107,7 +108,6 @@ body {
   display: flex;
   gap: 40px;
 }
-
 .header-mail {
   font-size: 16px;
   line-height: 1.5;
@@ -132,6 +132,8 @@ body {
 .header-tel:focus {
   color: var(--ocean);
 }
+
+
 
 /* Section 1 */
 .section-1-container {
@@ -212,6 +214,8 @@ body {
   height: 72px;
 }
 
+
+
 /* Section 2 */
 .sectionsecond {
 }
@@ -253,6 +257,8 @@ body {
   flex-grow: 0;
 }
 
+
+
 /* Section 3 */
 .sectionthird-container {
   display: flex;
@@ -260,7 +266,6 @@ body {
   width: 264px;
   height: 380px;
 }
-
 .sectionthird {
   background: var(--cloud);
 }
@@ -327,6 +332,10 @@ body {
   order: 0;
   flex-grow: 0;
 }
+
+
+
+/* Footer */
 .footer-background {
   background: var(--navy-blue);
   padding-top: 100px;
@@ -341,8 +350,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
-}
-.link {
 }
 .footer-logo-studio {
   font-family: "Raleway", sans-serif;
@@ -364,13 +371,17 @@ body {
   width: 264px;
   height: 72px;
 }
+.footer-container {
+}
+
+
 
 /* Portfolio*/
 .section1-h1 {
 }
 .button {
   list-style: none;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   display: flex;
   gap: 24px;
   padding-top: 96px;
@@ -403,8 +414,9 @@ body {
   background: var(--ocean);
 }
 
-/* card-set */
 
+
+/* card-set */
 .card-set {
   padding: 0;
   margin: 0;
@@ -414,12 +426,14 @@ body {
   margin-left: calc(-1 * var(--gap));
   margin-top: -48px;
 }
-
 .card-set > .section-portfolio-item {
   flex-basis: calc(100% / 3 - var(--gap));
   margin-left: var(--gap);
   margin-top: 48px;
 }
+
+
+
 .section-portfolio-item * {
 }
 .section-portfolio {
@@ -488,6 +502,4 @@ body {
   display: block;
   max-width: 100%;
   height: auto;
-}
-.footer-container {
 }
