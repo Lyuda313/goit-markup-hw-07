@@ -56,6 +56,7 @@ body {
   background-color: var(--white);
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #E7E9FC;
 }
 .header-container{
   display: flex;
@@ -198,15 +199,13 @@ body {
 }
 .sectionfirst-item {
 }
-.list {
-}
 .sectionfirst-headline {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .sectionfirst-text {
   font-weight: 400;
@@ -229,18 +228,17 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue);
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .sectionsecond-item {
 }
-.list {}
 .sectionsecond-img{
   display: flex;
   gap: 24px;
 }
 .sectionsecond-img-computer {
   background: url(2368.jpg);
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--cornflower);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -264,7 +262,6 @@ body {
 .sectionthird-container{
   display: flex;
   gap: 24px;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
   width: 264px;
   height: 380px;
@@ -284,12 +281,13 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue);
-  padding-bottom: 72px;
-}
-.list {
+  margin-bottom: 72px;
 }
 .sectionthird-item {
   background-color: var(--white);
+  padding-bottom: 32px;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .sectionthird-img-boyone {
   background: url(man-with-laptop-presenting-something.jpg);
@@ -305,7 +303,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
-  padding-top: 32px;
+  margin-top: 32px;
 }
 .sectionthird-text {
   font-weight: 400;
@@ -314,8 +312,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--slate);
-  padding-bottom: 32px;
-  padding-top: 8px;
+  margin-top: 8px;
 
 }
 .sectionthird-img-boytwo {
@@ -341,7 +338,8 @@ body {
 }
 .footer-background {
   background: var(--navy-blue);
-  height: 312px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -506,6 +504,4 @@ margin-top: -48px;
   height: auto;
 }
 .footer-container{
- padding-top: 100px;
- padding-bottom: 100px;
 }
