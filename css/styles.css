@@ -27,10 +27,10 @@ button {
 address {
   font-style: normal;
 }
-img{
+img {
   display: block;
 }
-.section{
+.section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -56,9 +56,9 @@ body {
   background-color: var(--white);
   padding-top: 24px;
   padding-bottom: 24px;
-  border-bottom: 1px solid #E7E9FC;
+  border-bottom: 1px solid #e7e9fc;
 }
-.header-container{
+.header-container {
   display: flex;
 }
 
@@ -103,11 +103,10 @@ body {
 .header-address {
   font-style: normal;
 }
-.header-container-address{
+.header-container-address {
   display: flex;
   gap: 40px;
 }
-
 
 .header-mail {
   font-size: 16px;
@@ -135,20 +134,16 @@ body {
 }
 
 /* Section 1 */
-.section-1-container{
+.section-1-container {
   display: flex;
   gap: 24px;
 }
-
-
-
-
 .sectiofirst-background {
   background: var(--navy-blue);
   padding-top: 188px;
   padding-bottom: 188px;
 }
-.hero-container{
+.hero-container {
   text-align: center;
 }
 .sectionfirst {
@@ -232,7 +227,7 @@ body {
 }
 .sectionsecond-item {
 }
-.sectionsecond-img{
+.sectionsecond-img {
   display: flex;
   gap: 24px;
 }
@@ -259,16 +254,12 @@ body {
 }
 
 /* Section 3 */
-.sectionthird-container{
+.sectionthird-container {
   display: flex;
   gap: 24px;
-  border-radius: 0px 0px 4px 4px;
   width: 264px;
   height: 380px;
 }
-
-
-
 
 .sectionthird {
   background: var(--cloud);
@@ -287,7 +278,8 @@ body {
   background-color: var(--white);
   padding-bottom: 32px;
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .sectionthird-img-boyone {
   background: url(man-with-laptop-presenting-something.jpg);
@@ -313,7 +305,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--slate);
   margin-top: 8px;
-
 }
 .sectionthird-img-boytwo {
   background: url(img-2.jpg);
@@ -369,13 +360,13 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cloud);
-  margin-top: 17.5px;;
+  margin-top: 17.5px;
   width: 264px;
   height: 72px;
 }
 
 /* Portfolio*/
-.section1-h1{
+.section1-h1 {
 }
 .button {
   list-style: none;
@@ -414,30 +405,25 @@ body {
 
 /* card-set */
 
-.card-set{
-padding: 0;
-margin: 0;
-list-style: none;
-display: flex;
-flex-wrap: wrap;
-margin-left: calc(-1 * var(--gap));
-margin-top: -48px;
+.card-set {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(-1 * var(--gap));
+  margin-top: -48px;
 }
 
-.card-set > .section-portfolio-item{
+.card-set > .section-portfolio-item {
   flex-basis: calc(100% / 3 - var(--gap));
   margin-left: var(--gap);
   margin-top: 48px;
 }
 .section-portfolio-item * {
 }
-
-
-
-
 .section-portfolio {
 }
-
 .portfolio-photo {
 }
 .section-img-bank-app {
@@ -485,7 +471,7 @@ margin-top: -48px;
   background: url(pexels-chevanon-photography-302897.jpg);
   mix-blend-mode: normal;
 }
-.card-content{
+.card-content {
   padding-top: 32px;
   padding-left: 16px;
   border: 1px solid var(--cornflower);
@@ -498,10 +484,10 @@ margin-top: -48px;
   color: var(--navy-blue);
   height: 24px;
 }
-.img{
+.img {
   display: block;
   max-width: 100%;
   height: auto;
 }
-.footer-container{
+.footer-container {
 }
