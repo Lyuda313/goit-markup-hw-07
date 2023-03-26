@@ -250,11 +250,6 @@ body {
   flex-grow: 0;
 }
 .sectionsecond-img-phonetwo {
-  background: url(photo-1545235617-7a424c1a60cc.jpg);
-  border: 1px solid var(--cornflower);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 
@@ -377,8 +372,21 @@ body {
 
 
 /* Portfolio*/
+.hidden { 
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
 .section1-portfolio{
-  padding-top: 120px;
+  padding-top: 96px;
   padding-bottom: 120px;
 }
 .section1-h1 {
