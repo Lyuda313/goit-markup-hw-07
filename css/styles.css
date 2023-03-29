@@ -256,8 +256,6 @@ body {
 .sectionthird-container {
   display: flex;
   gap: 24px;
-  width: 264px;
-  height: 380px;
 }
 .sectionthird {
   background: var(--cloud);
@@ -274,7 +272,6 @@ body {
 }
 .sectionthird-item {
   background-color: var(--white);
-  padding-bottom: 32px;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -287,6 +284,7 @@ body {
   flex-grow: 0;
 }
 .people{
+  padding: 32px 0;
 }
 .sectionthird-headline {
   font-weight: 500;
@@ -295,7 +293,6 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
-  margin-top: 32px;
 }
 .sectionthird-text {
   font-weight: 400;
@@ -332,7 +329,6 @@ body {
   justify-content: center;
   gap: 24px;
   margin-top: 8px;
-  padding-bottom: 32px;
 }
 .people-soc-item {
   width: 40px;
