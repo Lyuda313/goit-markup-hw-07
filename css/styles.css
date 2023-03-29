@@ -379,6 +379,37 @@ body {
   */
 
 
+/* Section 4 */
+.sectionfour-heading{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--navy-blue);
+margin-bottom: 72px;
+}
+.customers-soc {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+
+}
+.customers-soc-item {
+border: 1px solid #8E8F99;
+border-radius: 4px;
+}
+.customers-soc-link {
+}
+.link {
+}
+.customers-soc-icon {
+}
+
+
+
+
 
 /* Footer */
 .footer-background {
@@ -417,8 +448,22 @@ body {
   height: 72px;
 }
 .footer-container {
-}
 
+}
+.footer-two{
+}
+.footer-h3{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  width: 96px;
+  height: 24px;
+  color: var(--white);
+
+}
 /* Portfolio*/
 .visually-hidden {
   position: absolute;
