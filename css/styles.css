@@ -198,6 +198,18 @@ body {
 }
 .sectionfirst-item {
 }
+.first-img {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 8px;
+}
+.sectionfirst-icon {
+  background: var(--cloud)
+  border-radius: 4px;
+}
+
+
+
 .sectionfirst-headline {
   font-weight: 500;
   font-size: 20px;
