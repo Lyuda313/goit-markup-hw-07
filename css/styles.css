@@ -348,10 +348,15 @@ body {
   justify-content: center;
 }
 .people-soc-icon{
-  fill: var(--white);
+  fill: var(--cloud)
 }
-
-
+.people-soc-link:hover {
+  background-color: var(--iris);
+}
+.people-soc-link:hover > people-soc-icon {
+  fill: violet;
+}
+ 
 
 
 
