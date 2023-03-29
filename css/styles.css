@@ -344,13 +344,19 @@ body {
   justify-content: center;
   fill: var(--cloud);
 }
+
+.people-soc-link:hover,
+.people-soc-link:focus {
+  background-color:var(--ocean);
+}
+
 /* .people-soc-icon{
   fill: currentColor;
 } */
-.people-soc-link:hover {
+/* .people-soc-link:hover {
   background-color: var(--iris);
   fill: violet;
-}
+} */
 
 /* .people-soc-link:hover {
   background-color: var(--iris);
@@ -485,7 +491,13 @@ body {
 .section-portfolio {
 }
 .portfolio-photo {
+  display: block;
 }
+.portfolio-photo:hover,
+.portfolio-photo :focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .section-img-bank-app {
   left: 0px;
   top: 0px;
