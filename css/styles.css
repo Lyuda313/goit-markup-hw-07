@@ -146,6 +146,9 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-container {
   text-align: center;
@@ -202,12 +205,18 @@ body {
 }
 
 .sectionfirst-item {
-  gap: 24px;
+  width: 264px;
+  height: 112px;
+  justify-content: center;
+  align-items: center;
+}
+.sectionfirst-img{
   width: 264px;
   height: 112px;
   background: var(--cloud);
   border-radius: 4px;
   margin-bottom: 8px;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
