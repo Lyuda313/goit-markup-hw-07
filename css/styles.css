@@ -59,7 +59,9 @@ body {
   padding-bottom: 24px;
   border-bottom: 1px solid var(--cornflower);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .header-container {
   display: flex;
@@ -139,7 +141,7 @@ body {
   display: flex;
   gap: 24px;
 }
-.sectionfirst-background {
+.sectiofirst-background {
   background: var(--navy-blue);
   padding-top: 188px;
   padding-bottom: 188px;
@@ -205,10 +207,12 @@ body {
 .sectionfirst-item {
 <<<<<<< HEAD
   width: 264px;
+  height: 112px;
   justify-content: center;
   align-items: center;
 }
-.customers-socg{
+.sectionfirst-img{
+  width: 264px;
   height: 112px;
   background: var(--cloud);
   border-radius: 4px;
@@ -254,7 +258,10 @@ body {
 }
 
 /* Section 2 */
-.sectionsecond {
+.sectionsecond {  
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .sectionsecond-heading {
   font-weight: 700;
@@ -280,6 +287,11 @@ body {
   flex-grow: 0;
 }
 .sectionsecond-img-phone {
+  background: url(2225.jpg);
+  border: 1px solid var(--cornflower);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 .sectionsecond-img-phonetwo {
 }
@@ -291,6 +303,9 @@ body {
 }
 .sectionthird {
   background: var(--cloud);
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .sectionthird-heading {
   font-weight: 700;
@@ -418,11 +433,10 @@ margin-bottom: 72px;
 .customers-soc-item {
 width: 168px;
 height: 88px;
-fill: currentColor;
 }
 .customers-soc-link:hover,
 .customers-soc-link:focus{
-background-color: var(--ocean);
+border-color :var(--ocean);
 }
 
 .customers-soc-link {
@@ -451,6 +465,9 @@ fill: currentColor
   background: var(--navy-blue);
   padding-top: 100px;
   padding-bottom: 100px;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -658,6 +675,7 @@ margin-left: 120px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  height: 24px;
 }
 .img {
   display: block;
