@@ -448,16 +448,16 @@ border-radius: 4px;
   height: 72px;
 }
 .footer-container {
-  
-
+  display: flex;
 }
 .footer-two{
 
 }
-.customers-soc-footer{
+.soc-footer{
   display: flex;
+  gap: 16px;
 }
-.footer-h3{
+.footer-p{
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -466,8 +466,16 @@ border-radius: 4px;
   letter-spacing: 0.02em;
   color: var(--white);
   margin-bottom: 16px;
-
 }
+.soc-item-footer{
+  width: 40px;
+  height: 40px;
+}
+
+.people-soc-link:hover,
+.people-soc-link:focus {
+  background-color: #31D0AA;}
+
 /* Portfolio*/
 .visually-hidden {
   position: absolute;
