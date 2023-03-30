@@ -209,9 +209,9 @@ body {
   border-radius: 4px;
   margin-bottom: 8px;
   justify-content: center;
+  align-items: center;
 }
 .sectionfirst-icon {
-
 }
 .sectionfirst-headline {
   font-weight: 500;
@@ -220,7 +220,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   margin-bottom: 8px;
-  margin-top: 8px;
 }
 .sectionfirst-text {
   font-weight: 400;
