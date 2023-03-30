@@ -383,6 +383,8 @@ body {
   background-color:var(--ocean);
 }
 
+
+
 /* .people-soc-icon{
   fill: currentColor;
 } */
@@ -510,7 +512,21 @@ margin-left: 120px;
 
 .people-soc-link:hover,
 .people-soc-link:focus {
-  background-color: #31D0AA;}
+  background-color: var(--ocean)}
+
+  .people-soc-link-footer {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: var(--iris);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: var(--cloud);
+  }
+.soc-item-footer :hover,
+.soc-item-footer :focus {
+  background-color: #31D0AA}
 
 /* Portfolio*/
 .visually-hidden {
