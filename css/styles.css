@@ -200,12 +200,10 @@ body {
   background-color: var(--ocean);
 }
 .sectionfirst-heading {
-
-}
-.section-1-container {
 }
 
 .sectionfirst-item {
+<<<<<<< HEAD
   width: 264px;
   justify-content: center;
   align-items: center;
@@ -215,10 +213,25 @@ body {
   background: var(--cloud);
   border-radius: 4px;
   margin-bottom: 8px;
+=======
+}
+.first-img {
+>>>>>>> parent of dad871a (1)
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 24px;
 }
 .sectionfirst-icon {
+}
+.sectionfirst-img-1{
+
+}
+.sectionfirst-img{  
+  background: var(--cloud);
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
 
 }
 .sectionfirst-headline {
