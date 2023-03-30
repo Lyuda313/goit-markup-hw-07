@@ -448,9 +448,14 @@ border-radius: 4px;
   height: 72px;
 }
 .footer-container {
+  
 
 }
 .footer-two{
+
+}
+.customers-soc-footer{
+  display: flex;
 }
 .footer-h3{
   font-family: 'Roboto';
@@ -459,9 +464,8 @@ border-radius: 4px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: 96px;
-  height: 24px;
   color: var(--white);
+  margin-bottom: 16px;
 
 }
 /* Portfolio*/
