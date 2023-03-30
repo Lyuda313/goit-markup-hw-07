@@ -202,7 +202,6 @@ body {
 }
 
 .sectionfirst-item {
-<<<<<<< HEAD
   width: 264px;
   height: 112px;
   justify-content: center;
@@ -214,10 +213,6 @@ body {
   background: var(--cloud);
   border-radius: 4px;
   margin-bottom: 8px;
-=======
-}
-.first-img {
->>>>>>> parent of dad871a (1)
   display: flex;
   justify-content: center;
   align-items: center;
