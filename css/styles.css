@@ -149,6 +149,7 @@ body {
 }
 .hero-container {
   text-align: center;
+  width: 1440px;
 }
 .sectionfirst {
   padding-top: 120px;
@@ -207,9 +208,6 @@ body {
   background: var(--cloud)
   border-radius: 4px;
 }
-
-
-
 .sectionfirst-headline {
   font-weight: 500;
   font-size: 20px;
