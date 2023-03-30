@@ -152,7 +152,6 @@ body {
 }
 .hero-container {
   text-align: center;
-  width: 1440px;
 }
 .sectionfirst {
   padding-top: 120px;
@@ -274,11 +273,6 @@ body {
   flex-grow: 0;
 }
 .sectionsecond-img-phone {
-  background: url(2225.jpg);
-  border: 1px solid var(--cornflower);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 .sectionsecond-img-phonetwo {
 }
