@@ -203,12 +203,10 @@ body {
 
 .sectionfirst-item {
   width: 264px;
-  height: 112px;
   justify-content: center;
   align-items: center;
 }
 .sectionfirst-img{
-  width: 264px;
   height: 112px;
   background: var(--cloud);
   border-radius: 4px;
@@ -675,7 +673,6 @@ margin-left: 120px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
-  height: 24px;
 }
 .img {
   display: block;
