@@ -397,12 +397,17 @@ margin-bottom: 72px;
 .customers-soc-item {
 border: 1px solid #8E8F99;
 border-radius: 4px;
+width: 168px;
+height: 88px;
+border: 1px solid #8E8F99;
+padding: 16px 32px 16px 32px;
 }
 .customers-soc-link {
 }
 .link {
 }
 .customers-soc-icon {
+fill:#8E8F99;
 }
 
 
