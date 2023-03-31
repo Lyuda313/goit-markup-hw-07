@@ -417,6 +417,7 @@ height: 88px;
 .customers-soc-link:hover,
 .customers-soc-link:focus{
 border-color :var(--ocean);
+color:var(--ocean);
 }
 
 .customers-soc-link {
@@ -432,15 +433,17 @@ border-radius: 4px;
 .customers-soc-icon {
 fill: currentColor
 }
-.customers-soc-icon:hover,
+/* .customers-soc-icon:hover,
 .ccustomers-soc-icon:focus {
   fill:var(--ocean);
-}
+} */
 
-/* .customers-soc-link:hover .ccustomers-soc-icon:hover {
-  fill:var(--ocean);}
-.customers-soc-link:focus .ccustomers-soc-icon:focus {
-    fill:var(--ocean);} */
+.customers-soc-link:hover .ccustomers-soc-icon:focus {
+  fill:var(--ocean);
+}
+.customers-soc-link:focus .ccustomers-soc-icon:hover {
+  fill:var(--ocean);
+  }
 
 /* Footer */
 .footer-background {
