@@ -427,19 +427,22 @@ justify-content: center;
 align-items: center;
 border: 1px solid #8E8F99;
 color: #8E8F99;
+border-radius: 4px;
 }
 .link {
 }
 .customers-soc-icon {
 fill: currentColor
 }
-.customers-soc-icon:hover,
+/* .customers-soc-icon:hover,
 .ccustomers-soc-icon:focus {
   fill:var(--ocean);
-}
+} */
 
-
-
+.customers-soc-link:hover .ccustomers-soc-icon:focus {
+  fill:var(--ocean);}
+  .customers-soc-link:focus .ccustomers-soc-icon:hover {
+    fill:var(--ocean);}
 
 /* Footer */
 .footer-background {
