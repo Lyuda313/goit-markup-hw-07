@@ -619,7 +619,7 @@ body {
 .card-set:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    transition: 250ms;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .card{
   position: relative;
@@ -632,7 +632,8 @@ body {
   height: 100%;
   background: var(--iris);
   opacity: 0;
-  transition: 250ms;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(100%);
 }
 .card:hover::before{
   opacity: 1;
@@ -640,16 +641,20 @@ body {
 .card:focus::before{
   opacity: 1;
 }
-
-
-
+.portfolio-photo:hover .card::before{
+  transform: translateY(0);
+  opacity: 1;
+}
+.portfolio-photo:focus .card::before{
+  transform: translateY(0);
+  opacity: 1;
+}
 
 
 
 .img-p{
   opacity: 0;
-  transition: 250ms opacity linear;
-  cubic-bezier:(0.4, 0, 0.2, 1);
+  transition: transform 250ms opacity linear cubic-bezier(0.4, 0, 0.2, 1);
 }
 .p-img {
   width: 296px;
@@ -667,6 +672,7 @@ body {
 }
 
 .section-portfolio-item * {
+  overflow: hidden;
 }
 .section-portfolio {
 }
@@ -677,7 +683,7 @@ body {
 .portfolio-photo :focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    transition: 250ms
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 .portfolio-photo:hover .img-p{
   opacity: 1;
