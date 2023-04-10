@@ -62,7 +62,6 @@ body {
   border-bottom: 1px solid var(--cornflower);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-container {
   display: flex;
@@ -82,7 +81,6 @@ body {
   text-transform: uppercase;
   color: var(--iris);
   margin-right: 76px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-logo-studio {
   color: var(--navy-blue);
@@ -99,7 +97,7 @@ body {
   color: var(--navy-blue);
   padding-top: 24px;
   padding-bottom: 24px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link:hover {
   color: var(--ocean);
@@ -138,7 +136,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-mail:hover {
   color: var(--ocean);
@@ -151,7 +149,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-tel:hover {
   color: var(--ocean);
@@ -217,7 +215,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 16px 32px 16px 32px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .sectionfirst-btn:hover {
   background-color: var(--ocean);
@@ -321,7 +319,6 @@ body {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .sectionthird-img-boyone {
   background: url(man-with-laptop-presenting-something.jpg);
@@ -390,7 +387,7 @@ body {
   align-items: center;
   justify-content: center;
   fill: var(--cloud);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .people-soc-link:hover,
@@ -433,7 +430,8 @@ body {
   border: 1px solid #8e8f99;
   color: #8e8f99;
   border-radius: 4px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-soc-icon {
   fill: currentColor;
@@ -461,7 +459,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-logo-studio {
   font-family: "Raleway", sans-serif;
@@ -506,7 +503,11 @@ body {
 .soc-item-footer {
   width: 40px;
   height: 40px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.soc-item-footer :hover,
+.soc-item-footer :focus {
+  background-color: #31d0aa;
 }
 .people-soc-link-footer {
   width: 100%;
@@ -517,12 +518,13 @@ body {
   align-items: center;
   justify-content: center;
   fill: var(--cloud);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .soc-item-footer :hover,
 .soc-item-footer :focus {
   background-color: #31d0aa;
 }
+
 
 /* Portfolio*/
 .visually-hidden {
@@ -570,7 +572,9 @@ body {
   border: transparent;
   border-radius: 4px;
   border: 1px solid var(--cornflower);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-roll:hover {
   color: var(--white);
@@ -597,7 +601,7 @@ body {
   flex-wrap: wrap;
   margin-left: calc(-1 * var(--gap));
   margin-top: -48px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .card-set > .section-portfolio-item {
   flex-basis: calc(100% / 3 - var(--gap));
@@ -640,7 +644,7 @@ body {
 }
 .portfolio-photo {
   display: block;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-photo:hover,
 .portfolio-photo :focus {
@@ -741,7 +745,8 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   margin-left: auto;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn:hover,
