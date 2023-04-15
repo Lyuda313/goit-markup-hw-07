@@ -484,6 +484,7 @@ body {
 }
 .footer-two {
   margin-left: 120px;
+  margin-right: 80px;
 }
 .soc-footer {
   display: flex;
@@ -763,3 +764,33 @@ text-align: center;
 letter-spacing: 0.02em;
 color: var(--navy-blue);
 margin-bottom: 16px;}
+
+.modal-input{
+  width: 360px;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  margin-top: 4px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+}
+.footer-input{
+  box-sizing: border-box;
+  position: absolute;
+  border: 1px solid var(--white);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: var(--navy-blue);
+  width: 264px;
+  height: 40px;
+  margin-right: 24px;
+  padding: 8px 212px 8px 16px;
+  font-size: 12px;
+  color: var(--white);
+}
+.footer-input::placeholder{
+  color: var(--white);
+}
