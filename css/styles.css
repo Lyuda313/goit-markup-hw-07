@@ -490,6 +490,9 @@ body {
   display: flex;
   gap: 16px;
 }
+.footer-three{
+
+}
 .footer-p {
   font-family: "Roboto";
   font-style: normal;
@@ -498,10 +501,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--white);
-  margin-bottom: 16px;
   padding-top: 8px;
   padding-left: 24px;
-  margin-right: 16px;
 }
 .soc-item-footer {
   width: 40px;
@@ -813,17 +814,19 @@ margin-bottom: 16px;}
   cursor: pointer;
   border: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-left: 24px;
+  align-items: center;
+  text-align: center;
 }
 
 .footer-btn:hover,
 .footer-btn:focus {
   background-color: var(--ocean);
 }
+
 .send-icon{
   fill: var(--white);
-  margin-left: 16px;
-}
+  margin-left: 16px;}
+
 .footer-email-button{
   display: flex;
 }
@@ -832,15 +835,6 @@ margin-bottom: 16px;}
   background-color: var(--ocean);
 }
 
-
-
-/* 
-.footer-btn:hover .send-icon:focus {
-  background-color: var(--ocean);
-}
-.footer-btn:focus .send-icon:hover {
-  background-color: var(--ocean);
-} */
 .modal-label-name{
   font-family: 'Roboto';
   font-style: normal;
