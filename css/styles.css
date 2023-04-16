@@ -826,3 +826,17 @@ margin-bottom: 16px;}
 .footer-email-button{
   display: flex;
 }
+.send-icon:hover,
+.send-icon:focus {
+  background-color: var(--ocean);
+}
+
+
+
+/* 
+.footer-btn:hover .send-icon:focus {
+  background-color: var(--ocean);
+}
+.footer-btn:focus .send-icon:hover {
+  background-color: var(--ocean);
+} */
