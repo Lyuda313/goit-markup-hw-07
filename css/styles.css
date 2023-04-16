@@ -10,6 +10,7 @@
   --bg-gradient: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
   --backdrop: rgba(46, 47, 66, 0.4);
   --modal: #fcfcfc;
+  --light-slate: #8E8F99;
 }
 p,
 h1,
@@ -840,3 +841,24 @@ margin-bottom: 16px;}
 .footer-btn:focus .send-icon:hover {
   background-color: var(--ocean);
 } */
+.modal-label-name{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--light-slate);
+}
+.modal-label{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: var(--light-slate);
+}
+.modal-name-label{
+  margin-top: 8px;
+}
