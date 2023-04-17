@@ -903,7 +903,15 @@ color: var(--light-slate);
 }
 .input-icon {
   position: relative;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
 }
+
 
 .modal-text {
   width: 360px;
@@ -918,4 +926,11 @@ color: var(--light-slate);
 }
 .modal-text:focus {
   border-color: #4d5ae5;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
 }
