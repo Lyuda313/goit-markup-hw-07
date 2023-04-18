@@ -872,6 +872,10 @@ color: var(--light-slate);
   display: block;
   margin-bottom: 8px;
 }
+.modal-label:not(:last-child){
+  margin-bottom: 8px;
+} 
+
 .modal-name {
   font-family: "Roboto";
   font-style: normal;
