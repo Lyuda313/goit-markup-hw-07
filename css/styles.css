@@ -435,12 +435,13 @@ body {
 }
 .customers-soc-icon {
   fill: currentColor;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.customers-soc-link:hover .ccustomers-soc-icon:focus {
+.customers-soc-link:hover .customers-soc-icon:focus {
   fill: var(--ocean);
 }
-.customers-soc-link:focus .ccustomers-soc-icon:hover {
+.customers-soc-link:focus .customers-soc-icon:hover {
   fill: var(--ocean);
 }
 
