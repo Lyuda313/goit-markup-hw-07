@@ -872,9 +872,6 @@ color: var(--light-slate);
   display: block;
   margin-bottom: 8px;
 }
-.modal-label:not(:last-child){
-  margin-bottom: 8px;
-} 
 
 .modal-name {
   font-family: "Roboto";
@@ -897,9 +894,18 @@ color: var(--light-slate);
   display: block;
   margin-bottom: 4px;
 }
+.modal-label-comment{
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: var(--light-slate);
+  display: block;
+}
 .modal-label span {
   display: block;
-  /* margin-top: 8px; */
 }
 .modal-icon {
   position: absolute;
@@ -1011,6 +1017,3 @@ color: var(--light-slate);
   background-position: center;
   background-repeat: no-repeat;
 }
-
-
-visually-hidden
