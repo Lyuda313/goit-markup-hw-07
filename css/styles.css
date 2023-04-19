@@ -946,7 +946,8 @@ color: var(--light-slate);
   display: block;
 }
 .modal-text:focus {
-  border-color: #4d5ae5;}
+  border-color: #4d5ae5;
+  color: var(--navy-blue)}
 
 .privacy-text{
   display: flex;
