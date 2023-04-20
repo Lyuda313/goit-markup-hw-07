@@ -304,11 +304,11 @@ body {
 
 /* Section 3 */
 .sectionthird-container {
-  /* display: flex; */
+  display: flex;
+  flex-wrap: wrap;
   gap: 24px;
-  flex-basis: 100%;
-  padding-left: 82px;
-  padding-right: 82px;
+  /* padding-left: 82px;
+  padding-right: 82px; */
 }
 .sectionthird {
   background: var(--cloud);
@@ -325,11 +325,13 @@ body {
   margin-bottom: 72px;
 }
 .sectionthird-item {
+    flex-basis: calc((100% - 72px) / 4);
   flex-basis: 100%;
   background-color: var(--white);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
 }
 .sectionthird-img-boyone {
   background: url(man-with-laptop-presenting-something.jpg);
@@ -341,7 +343,6 @@ body {
 }
 .people {
   padding: 32px 0;
-margin-bottom: 72px;
 }
 .people-last{
   padding: 32px 0;
@@ -1039,3 +1040,11 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-b
 @media screen and (min-width: 480px) {
   .container {width: 426px;}
 }
+@media screen and (min-width: 768px) {
+  .container {width: 742px;}
+  .sectionthird-item{
+    flex-basis: calc((100% - 24px) / 2);
+  }
+}
+
+
