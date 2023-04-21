@@ -277,8 +277,7 @@ body {
 }
 
 /* Section 2 */
-.sectionsecond {
-}
+
 .sectionsecond-heading {
   font-weight: 700;
   font-size: 36px;
@@ -289,18 +288,12 @@ body {
   color: var(--navy-blue);
   margin-bottom: 72px;
 }
-.sectionsecond-item {
-}
 .sectionsecond-img {
   display: flex;
   gap: 24px;
 }
-.sectionsecond-img-computer {
-}
-.sectionsecond-img-phone {
-}
-.sectionsecond-img-phonetwo {
-}
+
+
 
 /* Section 3 */
 .sectionthird-container {
@@ -430,7 +423,9 @@ body {
   gap: 72px 16px;
 }
 .customers-soc-item {
+  flex-basis: calc((100% - 16px) / 2);
   width: 168px;
+  /* width: 100%; */
   height: 88px;
 }
 .customers-soc-link:hover,
@@ -466,9 +461,11 @@ body {
 /* Footer */
 .footer-background {
   background: var(--navy-blue);
-  padding-top: 100px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  /* padding-top: 100px;
   padding-bottom: 100px;
-}
+} */
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -478,6 +475,11 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer-logo-studio {
   font-family: "Raleway", sans-serif;
@@ -488,6 +490,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--cloud);
+  justify-content: center;
 }
 .footer-text {
   font-weight: 400;
@@ -500,11 +503,20 @@ body {
   height: 72px;
 }
 .footer-container {
-  display: flex;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+}
+.footer-one{
+  padding-left: 80px;
+  margin-bottom: 72px;
+
 }
 .footer-two {
-  margin-left: 120px;
-  margin-right: 80px;
+  /* margin-left: 120px;
+  margin-right: 80px; */
+  padding-left: 110px;
+  justify-content: center;
 }
 .soc-footer {
   display: flex;
@@ -861,7 +873,7 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   align-items: center;
   text-align: center;
-  padding: 8px 24px 8px 24px;
+  /* padding: 8px 24px 8px 24px; */
 }
 
 .footer-btn:hover,
@@ -1041,6 +1053,8 @@ body {
   .container {
     width: 426px;
   }
+  .customers-soc-item {
+    width: 100%;
 }
 @media screen and (min-width: 768px) {
   .container {
