@@ -1069,18 +1069,14 @@ li.customers-soc-item {
     gap: 72px 24px;
   }
 
-  li.customers-soc-item {
+  .customers-soc-item {
     flex-basis: calc((100% - 24px) / 3);
     gap: 72px 24px;}
+/* 
 
-
-  /* .customers-soc-item{
-    flex-basis: calc((100% - 24px) / 3);
-  } */
   .sectionthird-item {
-    /* flex-basis: calc((100% - 24px) / 2); */
     gap: 64px 24px;
-  }
+  } */
 }
 @media screen and (min-width: 1158px) {
   .container {
@@ -1097,8 +1093,8 @@ li.customers-soc-item {
     gap: 24px;
   }
   .customers-soc-item {
-    width: 168px;
-    height: 88px;
+    flex-basis: calc((100% - 24px) / 4);
+    gap: 24px;
   }
   
   }
