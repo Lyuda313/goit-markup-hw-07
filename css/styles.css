@@ -1184,11 +1184,6 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-b
     background-image: var(--bg-gradient), url(../images/hero-bg-2x.jpg);
   }
 
-
-
-
-
-
   .sectionfirst-title {
     font-size: 56px;
     line-height: 1.07;
@@ -1285,9 +1280,6 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-b
     .footer-input{
       width: 264px;
     }
-
-
-
 
 
 
