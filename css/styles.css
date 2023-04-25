@@ -1297,7 +1297,6 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-b
 
 
 
-
 }
 @media screen and (max-width: 1157px) {
 	.sectionsecond {
@@ -1334,5 +1333,6 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-b
   .sectiofirst-background{
     background-image: var(--bg-gradient), url(../images/hero-bg-mobile-2x.jpg);
   }
+
 }
 }
