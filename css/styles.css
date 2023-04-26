@@ -466,6 +466,9 @@ body {
 .footer-one{
   text-align: center;
 }
+.footer-three{
+  width: 100%;
+}
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -1156,7 +1159,9 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-b
   margin-bottom: 0;
   width: 264px;
 }
-
+.footer-email-button{
+  justify-content: left;
+}
 }
 
 
