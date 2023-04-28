@@ -69,8 +69,8 @@ body {
 
 .header {
   background-color: var(--white);
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 25.5px;
+  padding-bottom: 23.5px;
   border-bottom: 1px solid var(--cornflower);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -1157,7 +1157,10 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-b
   .active-page {
     color: var(--ocean);
   }
-  
+  .header {
+    padding-top: 16px;
+    padding-bottom: 16px;}
+
   .header-address {
     font-style: normal;
   }
@@ -1340,6 +1343,10 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-b
     background-image: var(--bg-gradient), url(../images/hero-bg-2x.jpg);
   }
 }
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;}
+
 .header-container-address {
   flex-wrap: nowrap;
   gap: 40px;
@@ -1481,8 +1488,17 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-b
   .mob-soc {
   gap: 25px;
 }
-.modal {
+.modal,
+.modal-input,
+.modal-text{
   width: 100%;
+}
+.privacy-text,
+.privacy-text-a{
+  font-size: 9px;
+}
+.modal-title{
+  font-size: 11px;
 }
 
 
