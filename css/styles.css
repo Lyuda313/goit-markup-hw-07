@@ -375,13 +375,6 @@ body {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-/* .sectionthird-img-boyone {
-  background: url(man-with-laptop-presenting-something.jpg);
-  mix-blend-mode: normal;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-} */
 .people {
   padding: 32px 0;
 }
@@ -402,27 +395,6 @@ body {
   color: var(--slate);
   margin-top: 8px;
 }
-/* .sectionthird-img-boytwo {
-  background: url(img-2.jpg);
-  mix-blend-mode: normal;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-} */
-/* .sectionthird-img-girl {
-  background: url(young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair.jpg);
-  mix-blend-mode: normal;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-.sectionthird-img-boythird {
-  background: url(confident-handsome-guy-posing-against-white-wall.jpg);
-  mix-blend-mode: normal;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-} */
 .people-soc {
   display: flex;
   justify-content: center;
@@ -1489,7 +1461,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-b
   .mob-soc {
   gap: 25px;
 }
-.modal,
+/* .modal,
 .modal-input,
 .modal-text{
   width: 100%;
@@ -1500,9 +1472,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-b
 }
 .modal-title{
   font-size: 11px;
-}
-
-
+} */
 
 .sectionfirst-text{
   width: 100%;
