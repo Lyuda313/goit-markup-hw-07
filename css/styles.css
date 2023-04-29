@@ -168,7 +168,6 @@ body {
 }
 .mob-menu-container-address {
   margin-bottom: 48px;
-  margin-top: 60px;
 }
 .mob-menu-tel {
   font-weight: 700;
@@ -376,13 +375,13 @@ body {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.sectionthird-img-boyone {
+/* .sectionthird-img-boyone {
   background: url(man-with-laptop-presenting-something.jpg);
   mix-blend-mode: normal;
   flex: none;
   order: 0;
   flex-grow: 0;
-}
+} */
 .people {
   padding: 32px 0;
 }
@@ -403,14 +402,14 @@ body {
   color: var(--slate);
   margin-top: 8px;
 }
-.sectionthird-img-boytwo {
+/* .sectionthird-img-boytwo {
   background: url(img-2.jpg);
   mix-blend-mode: normal;
   flex: none;
   order: 0;
   flex-grow: 0;
-}
-.sectionthird-img-girl {
+} */
+/* .sectionthird-img-girl {
   background: url(young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair.jpg);
   mix-blend-mode: normal;
   flex: none;
@@ -423,7 +422,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
-}
+} */
 .people-soc {
   display: flex;
   justify-content: center;
@@ -548,7 +547,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cloud);
-  margin-top: 17.5px;
+  padding-top: 17.5px;
   width: 268px;
   height: 72px;
   text-align: left;
@@ -573,7 +572,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--white);
-  margin-bottom: 16px;
+  padding-bottom: 16px;
   margin-top: 72px;
   text-align: center;
 }
@@ -899,6 +898,7 @@ color: var(--light-slate);
   height: 40px;
   /* margin-right: 24px; */
   margin-bottom: 16px;
+  /* padding-bottom: 16px; */
   padding: 8px 16px 8px 16px;
   font-size: 12px;
   color: var(--white);
