@@ -106,7 +106,8 @@ body {
   stroke: #2E2E2E;
 }
 .menu-icon{
-  background-color: var(--white);
+  /* background-color: var(--white); */
+  stroke: #2E2E2E;
 }
 .menu-open-btn{
   background-color: var(--white);
